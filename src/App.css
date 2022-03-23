@@ -1,38 +1,57 @@
-.App {
+* {
+  background-color: rgb(97, 97, 238);
+}
+.container {
+  border: 1px solid #cecece;
+  width: 500px;
   text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container input {
+  border: none;
+  border-bottom: 3px solid rgb(97, 97, 238);
+  border-radius: 15px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container input:active {
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container button {
+  box-sizing: border-box;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 80px;
+  margin: 10px;
+  border: 1px solid #cecece;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.container button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.container div {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  /* border: 1px solid rgb(97, 97, 238); */
+  /* border-collapse: collapse; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container p {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-size: xx-large;
 }
